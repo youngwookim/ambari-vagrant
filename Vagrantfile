@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # All Vagrant configuration is done here. The most common configuration
   # Every Vagrant virtual environment requires a box to build off of.
   #config.vm.box = "centos6.4"
-  config.vm.box = "centos65-x86_64-20140116"
+  config.vm.box = "chef/centos-6.6"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.

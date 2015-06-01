@@ -20,9 +20,6 @@ curl -H "X-Requested-By: ambari" -u admin:admin http://c6401:8080/api/v1/bluepri
         "name" : "HISTORYSERVER"
       },
       {
-        "name" : "NAGIOS_SERVER"
-      },
-      {
         "name" : "ZOOKEEPER_SERVER"
       },
       {
@@ -30,6 +27,9 @@ curl -H "X-Requested-By: ambari" -u admin:admin http://c6401:8080/api/v1/bluepri
       },
       {
         "name" : "GANGLIA_MONITOR"
+      },
+      {
+        "name" : "APP_TIMELINE_SERVER"
       }
       ],
       "cardinality" : "1"
@@ -65,7 +65,7 @@ curl -H "X-Requested-By: ambari" -u admin:admin http://c6401:8080/api/v1/bluepri
   "Blueprints" : {
     "blueprint_name" : "multi-node-hdfs-yarn",
     "stack_name" : "HDP",
-    "stack_version" : "2.0"
+    "stack_version" : "2.2"
   }
 }
 EOF
